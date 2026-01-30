@@ -56,4 +56,4 @@ export interface SimpleListItem {
   text: string;
 }
 
-export type TabID = 'overview' | 'vision' | 'timeline' | 'scope' | 'quotex' | 'actions';
+export type TabID = 'overview' | 'timeline' | 'scope' | 'quotex' | 'actions';

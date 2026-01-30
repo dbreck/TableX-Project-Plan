@@ -42,7 +42,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Arabella, Brian", 
     start: 0, 
     duration: 2, 
-    color: "bg-blue-500",
+    color: "bg-teal-500",
     description: "Aligning teams on goals, scope, and establishing shared repositories for digital assets."
   },
   { 
@@ -51,7 +51,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Danny", 
     start: 1, 
     duration: 2, 
-    color: "bg-indigo-500",
+    color: "bg-teal-600",
     description: "Auditing existing high-res imagery and PDFs to identify content gaps before design begins."
   },
   { 
@@ -60,7 +60,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Danny, Brian", 
     start: 2, 
     duration: 3, 
-    color: "bg-indigo-500",
+    color: "bg-teal-700",
     description: "Analyzing SKU logic and attribute complexity to ensure the configurator can handle all variations."
   },
   { 
@@ -78,7 +78,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Arabella, Sales", 
     start: 3, 
     duration: 2, 
-    color: "bg-pink-500",
+    color: "bg-zinc-500",
     description: "Gathering insights from sales/support teams to uncover recurring customer pain points."
   },
   // Week 2 Starts Index 5
@@ -88,7 +88,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Arabella", 
     start: 5, 
     duration: 2, 
-    color: "bg-pink-500",
+    color: "bg-zinc-500",
     description: "Benchmarking against competitors (e.g., OFS) to identify market opportunities and differentiation."
   },
   { 
@@ -97,7 +97,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Danny, Arabella", 
     start: 6, 
     duration: 3, 
-    color: "bg-purple-500",
+    color: "bg-teal-600",
     description: "Visualizing the dealer/architect decision path to optimize the funnel and reduce drop-offs."
   },
   { 
@@ -106,7 +106,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Arabella, Danny", 
     start: 8, 
     duration: 2, 
-    color: "bg-purple-500",
+    color: "bg-teal-500",
     description: "Defining the information architecture to streamline navigation and product discovery."
   },
   // Week 3 Starts Index 10
@@ -116,7 +116,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Danny", 
     start: 10, 
     duration: 4, 
-    color: "bg-emerald-500",
+    color: "bg-orange-400",
     description: "Blueprinting key page layouts to secure agreement on structure without visual distraction."
   },
   { 
@@ -125,7 +125,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Danny", 
     start: 12, 
     duration: 2, 
-    color: "bg-emerald-500",
+    color: "bg-orange-500",
     description: "Documenting hosting, stack, and integration specs. Decision dependent on Buy vs Build Audit."
   },
   { 
@@ -134,7 +134,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Arabella", 
     start: 12, 
     duration: 3, 
-    color: "bg-teal-500",
+    color: "bg-zinc-600",
     description: "Planning voice, tone, and copy requirements to support the new brand narrative."
   },
   { 
@@ -143,7 +143,7 @@ export const TIMELINE_TASKS: GanttTask[] = [
     owner: "Team", 
     start: 14, 
     duration: 1, 
-    color: "bg-slate-700",
+    color: "bg-zinc-700",
     description: "Solidifying scope and investment for the Design and Development phases."
   }
 ];
