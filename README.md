@@ -1,11 +1,29 @@
-<div align="center">
+# TableX Project Dashboard
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A comprehensive, interactive dashboard for the TableX Website Redesign (Phase 1: Discovery & Framing).
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Project Overview**: Client and team details.
+- **Vision & Funnel**: Visualizing the new user journey.
+- **Interactive Timeline**: Gantt chart with "Add Task" and "Notes" capabilities.
+- **Scope & Deliverables**: Editable lists for activities and artifacts.
+- **QuoteX Integration**: Parallel tracking for the sales portal.
+- **AI Integration**: Features Google Gemini 2.0 Flash for:
+  - Persona Generation
+  - Task Breakdown
+  - Status Email Drafting
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- React 19
+- Tailwind CSS
+- Google Gemini API (`@google/genai`)
+- Lucide React Icons
+- LocalStorage for Data Persistence
+
+## Setup
+
+1. Clone the repository.
+2. Serve the `index.html` file using a local static server (e.g., Live Server, Vite, or Python simple http server).
+3. Ensure you have a valid API Key for Gemini functionalities.
